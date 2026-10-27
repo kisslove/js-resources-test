@@ -1,0 +1,26 @@
+{
+  "name": "js-maps-sdk-webpack-template",
+  "description": "GeoScene Maps SDK for JavaScript Webpack template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "webpack --config webpack.config.mjs --mode production",
+    "start": "webpack-dev-server --config webpack.config.mjs --mode development --open"
+  },
+  "dependencies": {
+    "@geoscene/charts-components": "^5.1.0",
+    "@geoscene/core": "^5.1.0",
+    "@geoscene/map-components": "^5.1.0",
+    "@geoscene/calcite-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "css-loader": "~7.1.4",
+    "html-webpack-plugin": "~5.6.7",
+    "mini-css-extract-plugin": "~2.10.2",
+    "style-loader": "~4.0.0",
+    "terser-webpack-plugin": "~5.6.1",
+    "webpack": "~5.107.2",
+    "webpack-cli": "~7.0.3",
+    "webpack-dev-server": "~5.2.4"
+  }
+}

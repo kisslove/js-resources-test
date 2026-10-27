@@ -1,0 +1,10 @@
+{
+  "name": "js-maps-sdk-node-template",
+  "version": "0.0.0",
+  "description": "GeoScene Maps SDK for JavaScript node template",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@geoscene/core": "^5.1.0"
+  }
+}

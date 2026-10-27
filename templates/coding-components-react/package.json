@@ -1,0 +1,36 @@
+{
+  "name": "coding-components-react-template",
+  "description": "GeoScene Maps SDK for JavaScript Coding components React template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@geoscene/coding-components": "^5.1.0",
+    "@geoscene/core": "^5.1.0",
+    "@geoscene/calcite-components": "^5.1.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "~6.0.2",
+    "vite": "^8.0.16"
+  },
+  "browserslist": {
+    "production": [
+      "last 4 chrome versions",
+      "last 4 edge versions",
+      "last 2 firefox versions",
+      "last 2 safari versions"
+    ],
+    "development": [
+      "last 4 chrome versions",
+      "last 4 edge versions",
+      "last 2 firefox versions",
+      "last 2 safari versions"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<!-- The Shell component is used as a layout for this template -->
+<calcite-shell content-behind>
+  <calcite-navigation slot="header">
+    <!-- Heading and description dynamically populated in app.ts -->
+    <calcite-navigation-logo
+      [heading]="navHeading"
+      [description]="navDescription"
+      heading-level="1"
+      slot="logo"
+    ></calcite-navigation-logo>
+  </calcite-navigation>
+
+  <!-- The Map component fits to the size of the parent element -->
+  <!-- The basemap, extent, zoom and more are provided by the Web Map (item-id) -->
+  <!-- Note: popup-component-enabled enables the Popup component (beta). See https://doc.geoscene.cn/javascript/latest/references/map-components/components/geoscene-map/#popupComponentEnabled for details. -->
+  <geoscene-map
+    item-id="dd4b2f25487d4a37a45093ba6acd026d"
+    popup-component-enabled
+    (geosceneViewReadyChange)="geosceneViewReadyChange($event)"
+  >
+    <geoscene-zoom slot="top-left"></geoscene-zoom>
+    <geoscene-search slot="top-right"></geoscene-search>
+    <geoscene-expand slot="bottom-left">
+      <geoscene-legend></geoscene-legend>
+    </geoscene-expand>
+    <!-- A Feature Layer in the Web Map has an associated chart (layer-item-id) -->
+    <geoscene-chart layer-item-id="b1717962dab247ad93eaca257b32fe02" chart-index="1" slot="bottom-right"></geoscene-chart>
+  </geoscene-map>
+</calcite-shell>

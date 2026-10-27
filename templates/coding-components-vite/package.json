@@ -1,0 +1,19 @@
+{
+  "name": "coding-components-vite-template",
+  "description": "GeoScene Maps SDK for JavaScript Coding components Vite template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@geoscene/coding-components": "^5.1.0",
+    "@geoscene/core": "^5.1.0",
+    "@geoscene/calcite-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
+}

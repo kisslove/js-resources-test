@@ -1,0 +1,30 @@
+{
+  "name": "ai-components-custom-agent-hil-react-sample",
+  "description": "Sample React template demonstrating how to create a custom agent with an HIL interrupt using GeoScene Maps SDK for JavaScript AI components (beta).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@geoscene/ai-components": "^5.1.0",
+    "@geoscene/core": "^5.1.0",
+    "@geoscene/map-components": "^5.1.0",
+    "@geoscene/calcite-components": "^5.1.1",
+    "@langchain/core": "^1.1.39",
+    "@langchain/langgraph": "^1.2.6",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "~24.10.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "~6.0.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.16"
+  }
+}

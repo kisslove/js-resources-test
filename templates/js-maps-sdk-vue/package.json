@@ -1,0 +1,22 @@
+{
+  "name": "js-maps-sdk-vue-template",
+  "description": "GeoScene Maps SDK for JavaScript Vite Vue template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@geoscene/charts-components": "^5.1.0",
+    "@geoscene/core": "^5.1.0",
+    "@geoscene/map-components": "^5.1.0",
+    "@geoscene/calcite-components": "^5.1.1",
+    "vue": "~3.5.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "~6.0.7",
+    "vite": "^8.0.16"
+  }
+}

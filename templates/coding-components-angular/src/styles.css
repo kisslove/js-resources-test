@@ -1,0 +1,8 @@
+@import "@geoscene/calcite-components/main.css";
+@import "@geoscene/coding-components/main.css";
+@import "monaco-editor/min/vs/editor/editor.main.css";
+
+html,
+body {
+  background-color: var(--calcite-ui-foreground-2);
+}
